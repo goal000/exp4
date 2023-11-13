@@ -1,0 +1,38 @@
+/* Style the heading */
+img{
+  
+}
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Style the educational level (e.g., B. Tech, Intermediate) */
+  h3 {
+    font-size: 1.5rem;
+    color: #007bff; /* Blue color for emphasis */
+    margin-top: 15px;
+  }
+  
+  /* Style the bold labels (e.g., College, Branch, CGPA) */
+  b {
+    color: #555;
+  }
+  
+  /* Style the content (e.g., College names, Branch, CGPA) */
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add some spacing between different educational levels */
+  h2 + h3 {
+    margin-top: 20px;
+  }
+  
+  /* Add spacing between individual pieces of educational information */
+  b + p {
+    margin-top: 5px;
+  }
+  

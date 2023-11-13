@@ -1,0 +1,25 @@
+/* Style the heading */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Style the bold labels (e.g., Name, College, Branch) */
+  b {
+    color: #555;
+    margin-right: 5px;
+  }
+  
+  /* Style the content (e.g., Personal information) */
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  /* Add some spacing between different sections */
+  h2 + p {
+    margin-top: 15px;
+  }
+  

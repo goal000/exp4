@@ -1,0 +1,53 @@
+/* Style the main heading */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Style the project title */
+  h3 {
+    font-size: 1.5rem;
+    color: #007bff; /* Blue color for emphasis */
+    margin-top: 15px;
+  }
+  
+  /* Style the bold label (Technologies used) */
+  b {
+    color: #555;
+    margin-right: 5px;
+  }
+  
+  /* Style the project description */
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  /* Style the list of technologies */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  /* Style the list items */
+  li {
+    margin-top: 5px;
+  }
+  
+  /* Add some spacing between different sections */
+  h2 + h3 {
+    margin-top: 15px;
+  }
+  
+  /* Style the list items with bullet points */
+  li::before {
+    content: "•"; /* Bullet point character */
+    color: #007bff; /* Blue bullet points */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
